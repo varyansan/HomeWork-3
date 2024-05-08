@@ -1,20 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("Задача №1");
         int a = 3333;
         byte b = -12;
         short c = 129;
         long d = 67598;
         float e = 6.545f;
         double x = 0.14527896;
-
         System.out.println("Значение переменной а с типом int равно " + a);
         System.out.println("Значение переменной b с типом byte равно " + b);
         System.out.println("Значение переменной c с типом short равно " + c);
         System.out.println("Значение переменной d с типом long равно " + d);
         System.out.println("Значение переменной e с типом float равно " + e);
         System.out.println("Значение переменной x с типом double равно " + x);
-
+        System.out.println("Задача №2");
         float firstValue = 27.12f;
         long secondValue = 987678965549L;
         float thirdValue = 2.786f;
@@ -22,7 +21,6 @@ public class Main {
         short fifthValue = -159;
         int sixthValue = 27897;
         byte seventhValue = 67;
-
         System.out.println(firstValue);
         System.out.println(secondValue);
         System.out.println(thirdValue);
@@ -30,7 +28,7 @@ public class Main {
         System.out.println(fifthValue);
         System.out.println(sixthValue);
         System.out.println(seventhValue);
-
+        System.out.println("Задача №3");
         byte firstClass = 23;
         byte secondClass = 27;
         byte thirdClass = 30;
@@ -38,7 +36,7 @@ public class Main {
         short totalNumberOfPaper = 480;
         int paperForOneChild = totalNumberOfPaper / totalNumberOfChildren;
         System.out.println("На каждого ученика рассчитано " + paperForOneChild + " листов бумаги.");
-
+        System.out.println("Задача №4");
         byte twoMinutes = 16;
         int oneMinutes = twoMinutes / 2;
         int twentyMinutes = oneMinutes * 20;
@@ -50,12 +48,11 @@ public class Main {
         int hoursInMonth = 31 * 24;
         int minutesInMonth = hoursInMonth * 60;
         int month = oneMinutes * minutesInMonth;
-
         System.out.println("За 20 минут машина произвела " + twentyMinutes + " штук бутылок.");
         System.out.println("За сутки машина произвела " + day + " штук бутылок.");
         System.out.println("За три дня машина произвела " + threeDays + " штук бутылок.");
         System.out.println("За месяц машина произвела " + month + " штук бутылок.");
-
+        System.out.println("Задача №5");
         byte allThePaint = 120;
         byte whitePaintForOneClass = 2;
         byte brownPaintForOneClass = 4;
@@ -63,9 +60,8 @@ public class Main {
         int totalWhitePaint = totalClasses * whitePaintForOneClass;
         int totalBrownPaint = totalClasses * brownPaintForOneClass;
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски.");
-
+        System.out.println("Задача №6");
         byte bananas = 5;
-        // не знаю, что у меня тут за ошибка, на решение задачи не повлияло и программа работает.
         byte weightOfOneBanana = 80;
         int totalWeightOfBananas = weightOfOneBanana * bananas;
         short milk = 2;
@@ -82,7 +78,7 @@ public class Main {
         float totalWeightBreakfastInKilograms = (float) totalWeightBreakfast / gramToOneKilogram;
         System.out.println("Общий вес завтрака составляет " + totalWeightBreakfast + " грамм.");
         System.out.println("В килограммах общий вес завтрака составляет " + totalWeightBreakfastInKilograms + " кг.");
-
+        System.out.println("Задача №7");
         byte weightOnKilograms = 7;
         int weightOnGram = weightOnKilograms * gramToOneKilogram;
         short lessWeightLoss = 250;
@@ -91,7 +87,7 @@ public class Main {
         int numberOfDaysWithBigLoss = weightOnGram / bigWeightLoss;
         System.out.println("Если смортсмен будет терять по " + lessWeightLoss + " грамм в день, то для достижения результата ему понадобиться " + numberOfDaysWithLessLoss + " дней.");
         System.out.println("Если смортсмен будет терять по " + bigWeightLoss + " грамм в день, то для достижения результата ему понадобиться " + numberOfDaysWithBigLoss + " дней.");
-
+        System.out.println("Задача №8");
         int salaryMasha = 67760;
         int salaryDenis = 83690;
         int salaryKristina = 76230;
@@ -110,10 +106,6 @@ public class Main {
         System.out.println("Маша теперь получает " + newSalaryPerMonthMasha + " рублей. Годовой доход вырос на " + salaryDifferenceMasha + " рублей.");
         System.out.println("Денис теперь получает " + newSalaryPerMonthDenis + " рублей. Годовой доход вырос на " + salaryDifferenceDenis + " рублей.");
         System.out.println("Кристина теперь получае " + newSalaryPerMonthKristina + " рубля. Годовой доход вырос на " + salaryDifferenceKristina + " рублей.");
-
-
-
-
 
 
     }
